@@ -11,10 +11,10 @@ class Handler(ABC):
         """"""
         pass
 
-    def read_file(self,option:str= "r") -> str:
-        with open(self.input_file_path,option) as r:
-            text = r.read()
-
+    def read_file(self, option: str = "r") -> list:
+        with open(self.input_file_path, option) as r:
+            text = r.readlines()
+            
         return text
     
     def write_file(self,option:str="w",text:str="") -> None:

@@ -1,4 +1,4 @@
-from Handler import Handler
+from data_handler.Handler import Handler
 
 import re
 

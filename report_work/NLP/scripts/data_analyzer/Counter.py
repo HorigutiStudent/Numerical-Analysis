@@ -1,5 +1,5 @@
 
-from Analyzer import Analyzer
+from data_analyzer.Analyzer import Analyzer
 import re
 
 
